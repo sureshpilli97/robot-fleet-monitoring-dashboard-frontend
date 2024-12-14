@@ -42,5 +42,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
+}
+
+
+@media screen and (max-width: 499px) {
+    .header {
+        font-size: 0.8rem;
+        flex-direction: column;
+        width: 90%;
+    }
 }

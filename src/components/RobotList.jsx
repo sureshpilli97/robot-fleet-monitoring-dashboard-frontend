@@ -102,7 +102,7 @@ const RobotList = () => {
             </div>
           </div>
 
-          <Paper sx={{ width: "80%" }}>
+          <Paper sx={{ width: "90%" }}>
             <TableContainer sx={{ maxHeight: 600 }}>
               <Table stickyHeader aria-label="sticky table">
                 <TableHead>

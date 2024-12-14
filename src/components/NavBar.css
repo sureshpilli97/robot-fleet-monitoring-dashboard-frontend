@@ -26,3 +26,9 @@
     justify-content: center;
     text-decoration: none;
 }
+
+@media screen and (max-width: 499px) {
+    .nav-logo {
+        font-size: 0.8rem;
+    }
+}

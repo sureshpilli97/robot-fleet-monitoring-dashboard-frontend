@@ -75,7 +75,7 @@ const NavBar = (props) => {
         >
             {Links.map((text, index) => (
                 <MenuItem key={text} onClick={handleMenuClose}>
-                    <a href={LinksPath[index]} id='nav-links'
+                    <a href={LinksPath[index]} style={{ color: 'black' }} id='nav-links'
                     >
                         <FontAwesomeIcon icon={Icons[index]} style={{ height: '1.5em' }} />
                         <>{text}</>

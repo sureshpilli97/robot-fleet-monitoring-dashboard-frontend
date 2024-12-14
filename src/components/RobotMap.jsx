@@ -33,7 +33,7 @@ const RobotMap = ({ robots }) => (
             </div>
         </div>
 
-        <MapContainer center={[0, 0]} zoom={2} style={{ height: "60rem", width: "80%", borderRadius: "1rem", boxShadow: "0 4px 16px rgba(0, 0, 0, 0.2)" }}>
+        <MapContainer center={[0, 0]} zoom={2.5} style={{ height: "60rem", width: "90%", borderRadius: "1rem", boxShadow: "0 4px 16px rgba(0, 0, 0, 0.2)" }}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             {robots.map((robot) => {
                 const color = robot["Online/Offline"] ? "green" : "red";
