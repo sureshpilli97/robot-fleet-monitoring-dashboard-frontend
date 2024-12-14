@@ -1,0 +1,28 @@
+.nav-logo {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-links {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
